@@ -1,0 +1,31 @@
+.proceso {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.proceso .proceso-imagen {
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.imagenes{
+    width: 200vh;
+    display: block;
+    height: auto;
+}
+
+.proceso .proceso-contenido h3{
+    color: $primario;
+    font-weight: 900;
+    
+}
+
+.proceso-contenido h3::after {
+    content: "";
+    display: block;
+    border-bottom: 5px solid $secundario;
+    width: 14rem;
+}

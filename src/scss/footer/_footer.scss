@@ -1,0 +1,84 @@
+.footer {
+    padding: 40px;
+    padding-bottom: 3rem;
+    color: #fff;
+    line-height: 1.15;
+    font-family: "Raleway",sans-serif;
+    font-size: 1.6rem;
+    box-sizing: inherit;
+    background-color: #5e311e;
+    position: relative;
+    text-align: center;
+    margin-top: -40px;
+  }
+
+  .footer-contenido .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.15;
+    font-size: 1.6rem;
+    box-sizing: inherit;
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: $blanco;
+    font-family: "Bona Nova",serif;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    font-size: 1.6rem;
+    font-family: "Bona Nova",serif;
+    text-align: center;
+    box-sizing: inherit;
+
+  }
+  
+  .footer-texto {
+    margin-bottom: 30px;
+  }
+  
+  .footer-texto h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: $secundario;
+  }
+  
+  .footer-texto p {
+    margin-bottom: 8px;
+  }
+  
+  .footer-texto a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .footer-texto a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-texto p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .copyright {
+    color: $blanco;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+

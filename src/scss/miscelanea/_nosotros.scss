@@ -1,0 +1,75 @@
+//Introduccion con titulo "Sobre nosotros"
+h2{
+    line-height: 1.15;
+    font-family: "Raleway",sans-serif;
+    text-align: center;
+    box-sizing: inherit;
+    margin: 0 0 5rem 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5e311e;
+    font-size: 5rem;
+}
+
+//Iconos de café, postre y té
+
+.iconos {
+    margin-top: 5rem;
+
+    .listado-iconos {
+        display: flex;
+        justify-content: space-between;
+
+        .icono{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            *, *:before, *:after {
+                box-sizing: inherit;
+            }
+
+            p {
+                color: $secundario;
+                font-family: $fuenteCursiva;
+                font-size: 3rem;
+            }
+        }
+        .icono img {
+            width: 12rem;
+        }
+    }
+}
+
+.nosotros-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+
+.nosotros-grid {
+    text-align: left;
+}
+
+.nosotros-grid .nosotros-imagen img {
+    transform: rotate(-6deg);
+    border: 3rem solid #fff;
+    box-shadow: 9px 15px 15px -7px rgba(0,0,0,.35);
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+img {
+    border-style: none;
+}
+
+.nosotros-grid .nosotros-contenido blockquote {
+    margin-left: 0;
+    padding: 1.5rem 1rem;
+    border-left: 5px solid #5e311e;
+    font-weight: 900;
+    font-size: 2rem;
+}
